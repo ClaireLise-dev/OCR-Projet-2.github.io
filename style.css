@@ -1,0 +1,128 @@
+@font-face
+{
+	font-family: 'Amble';
+	src: url('Font/Amble-Regular.ttf');
+}
+
+body {
+    background-color: white;
+    margin:auto;
+    font-family: 'Amble', arial, 'sans-seriff';
+    font-size: 0.8em;
+    color: black;
+    max-width: 900px;
+
+}
+header img{
+     border-radius: 80%;
+     border: 1px solid #4CAF50;
+     width: 158px;
+     height: 158px;
+
+ }
+#photo{
+    background-color:#9CCC65;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+
+}
+#identité{
+    width: auto;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#identité h1{
+    font-size: 2em;
+    color:#9CCC65;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+.nom{
+    color: black;
+    font-weight: lighter;
+}
+#identité h2{
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.underline{
+    border-bottom: 1px solid #9CCC65;
+}
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px;
+
+}
+aside{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    background-color: #9CCC65;
+    margin-top: 10px;
+}
+aside h3 {
+    color:#9CCC65;
+    background-color: #404040 ;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top:0px;
+
+}
+.contact p{
+    text-align: center;
+    font-size: 1em;
+
+}
+.à_propos p{
+    text-align: justify;
+    font-size: 1em;
+    padding: 10px;
+
+}
+.icones{
+    padding-right:10px;
+    padding-left:10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center ;
+}
+.icones_loisirs{
+    width: 45px;
+    height: 45px;
+    color: #404040;
+    font-size: 2em;
+    border: 2px solid #404040;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.titre_droit{
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: start;
+    border-bottom:1px solid #9CCC65;
+    margin-top: 40px;
+}
+.titre_droit h3{
+    margin:5px;
+    font-size: 1.5em;
+}
+.icones_principales{
+    color:#9CCC65;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
