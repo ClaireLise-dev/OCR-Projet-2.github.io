@@ -10,12 +10,19 @@ body {
     font-family: 'Amble', arial, 'sans-seriff';
     font-size: 0.8em;
     color: black;
-    max-width: 900px;
+    max-width: 950px;
 
+}
+a{
+    color: grey
+}
+
+a:hover{
+    color:#9CCC65;
 }
 header img{
      border-radius: 80%;
-     border: 1px solid #4CAF50;
+     border: 3px solid #4CAF50;
      width: 158px;
      height: 158px;
 
@@ -69,18 +76,24 @@ aside{
     background-color: #9CCC65;
     margin-top: 10px;
 }
+
 aside h3 {
     color:#9CCC65;
     background-color: #404040 ;
     text-align: center;
     font-size: 1.5em;
     margin-top:0px;
+    padding-right:0px;
+    padding-left:0px;
 
 }
 .contact p{
     text-align: center;
     font-size: 1em;
 
+}
+.contact a:hover{
+    color:black;
 }
 .à_propos p{
     text-align: justify;
@@ -125,4 +138,140 @@ aside h3 {
     color:#9CCC65;
     font-size: 1.5em;
     margin-right: 10px;
+}
+.contenu_droit{
+    display:flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: start;
+    margin-top: 10px;
+}
+.icones_date_lieu{
+    display:flex;
+    flex-direction:row;
+    align-items: baseline;
+    justify-content: start;
+}
+.dot_circle{
+    font-size: 1em;
+    color:#9CCC65;
+    padding-right: 10px;
+}
+.circle{
+    font-size: 0.6em;
+    color: #9CCC65;
+    padding-right: 10px;
+}
+ul {
+    list-style-type: none;
+}
+.recommandations{
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+@media only screen and (min-width:600px){
+    .recommandations{
+        text-align:center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        
+        
+    }
+}
+
+@media only screen and (min-width:960px){
+    body{
+        background-color: black;
+    }
+    .container_principal{
+        background-color: white;
+        margin-top:10px;
+        margin-bottom: 10px;
+        border:1px solid grey;
+    }
+    header{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width:950px;
+    }
+    .container{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 0px 0px 0px 0px;
+    }
+    #photo{
+        text-align: center;
+        padding:0px;
+        margin:0px;
+        width: 250px;
+    }
+    header img{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #identité{
+        text-align: justify;
+        margin-left: 40px;
+        margin-top:40px;
+        margin-bottom: 40px;
+    }
+    #identité h1{
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .nom{
+        font-weight:lighter;
+    }
+
+    #identité h2{
+        font-size: 2em;
+        font-weight: lighter;
+    }
+    main{
+        margin-top:0px;
+        margin-left: 40px;
+        margin-right: 0px;
+    }
+    .titre_droit{
+        margin-top:0px;
+    }
+
+    aside{
+        padding-top:5px;
+        margin:0px;
+        width:313px;
+    }
+    .contenu_droit{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .icones_date_lieu{
+        min-width: 200px;
+    }
+    .titre_droit{
+        margin-right: 25px;
+    }
+    .recommandations{
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    .à_propos p{
+        padding: 20px 20px 360px 20px ;
+        
+    }
+    .icones{
+        padding-top:40px;
+        padding-bottom: 20px;
+    }
+    
+
+    
 }
