@@ -177,9 +177,13 @@ ul {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-
-        
-        
+    }
+    .contenu_droit{
+        display: flex;
+        flex-direction: row;
+    }
+    .icones_date_lieu{
+        min-width: 150px;
     }
 }
 
