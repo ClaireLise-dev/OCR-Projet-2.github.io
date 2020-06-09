@@ -183,7 +183,7 @@ ul {
         flex-direction: row;
     }
     .icones_date_lieu{
-        min-width: 300px;
+        min-width: 150px;
     }
     
 }
@@ -202,19 +202,18 @@ ul {
         display:flex;
         flex-direction: row;
         justify-content: flex-start;
-        width:950px;
     }
     .container{
         display:flex;
         flex-direction: row;
         justify-content: flex-start;
-        margin: 0px 0px 0px 0px;
+        margin:0px 0px 0px 0px;
     }
     #photo{
         text-align: center;
         padding:0px;
         margin:0px;
-        width: 250px;
+        width: 30%;
     }
     header img{
         margin-top: 40px;
@@ -243,6 +242,7 @@ ul {
         margin-top:0px;
         margin-left: 40px;
         margin-right: 0px;
+        width: 65%;
     }
     .titre_droit{
         margin-top:0px;
@@ -250,8 +250,8 @@ ul {
 
     aside{
         padding-top:5px;
-        margin:0px;
-        width:313px;
+        margin: 0px;
+        width: 30%;
     }
     .contenu_droit{
         display: flex;
